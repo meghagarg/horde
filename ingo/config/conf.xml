@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- $Id: e198b86abf331c78c3df1ead37cb28b06f113318 $ -->
+<configuration>
+ <configsection name="storage">
+  <configheader>Rules Storage</configheader>
+  <configswitch name="driver" desc="What storage driver should we use?">sql
+   <case name="prefs" desc="Preference System"/>
+   <case name="sql" desc="SQL">
+    <configsection name="params">
+     <configsql switchname="driverconfig"/>
+    </configsection>
+   </case>
+  </configswitch>
+  <configinteger name="maxblacklist" desc="The maximum number of blacklist
+  addresses a user can store.  Set to 0 for no limit.">0</configinteger>
+  <configinteger name="maxwhitelist" desc="The maximum number of whitelist
+  addresses a user can store.  Set to 0 for no limit.">0</configinteger>
+ </configsection>
+
+ <configsection name="rules">
+  <configheader>Rules Options</configheader>
+  <configboolean name="userheader" desc="Allow users to manually enter Header
+  fields to search by in the Rule edit screen?">true</configboolean>
+ </configsection>
+
+ <configsection name="spam">
+  <configheader>Spam Filtering</configheader>
+  <configswitch name="compare" desc="Comparison type">string
+   <case name="numeric" desc="Numeric">
+    <configstring name="header" desc="The spam header to
+    check">X-Spam-Score</configstring>
+   </case>
+   <case name="string" desc="String">
+    <configstring name="header" desc="The spam header to
+    check">X-Spam-Level</configstring>
+    <configstring name="char" desc="The character repeated in the spam header
+    in order to indicate the spam level.  For example, if the character is
+    &quot;*&quot;, then &quot;****&quot; in the header indicates a spam level
+    of four.">*</configstring>
+   </case>
+  </configswitch>
+ </configsection>
+</configuration>

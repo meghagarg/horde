@@ -1,0 +1,92 @@
+.notePassphrase {
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.noteBody {
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    font-family: "Lucida Console",Courier,"Courier New";
+    white-space: normal;
+    overflow: auto;
+}
+.headerbox .noteBody {
+    border-top-width: 0;
+}
+
+#memo_body {
+    width: 100%;
+}
+
+.QuickFinderNoMatch {
+    display: none;
+}
+#notes_empty {
+    padding: 4px;
+    font-style: italic;
+}
+
+#quicksearch {
+    display: inline;
+}
+#quicksearch input {
+    background-image: url("graphics/search.png");
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    padding: 1px 0 1px 20px;
+}
+#quicksearch a {
+    display: inline-block;
+    padding: 2px 4px;
+}
+
+/* Tables. */
+table#notepad-list {
+    width: 99%;
+    margin: 0 0 8px 5px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+table#notepad-list th {
+    padding: 3px;
+    background: #e9e9e9;
+    border-right: 1px solid #ccc;
+    text-align: left;
+}
+table#notepad-list td {
+    padding: 3px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+table#notepad-list th.sortup {
+    background: #bbcbff url("graphics/za.png") center left no-repeat;
+    padding-left: 10px;
+}
+table#notepad-list th.sortdown {
+    background: #bbcbff url("graphics/az.png") center left no-repeat;
+    padding-left: 10px;
+}
+
+#notepad-list-buttons {
+    padding: 1em;
+}
+#notepad-list-buttons form {
+    display: inline;
+}
+.notepad-list-icon {
+    width: 1%;
+}
+
+.base-category {
+    padding: 0 4px;
+}
+
+/* Icons. */
+.mnemo-list {
+    background-image: url('graphics/mnemo.png');
+}
+.mnemo-search {
+    background-image: url('graphics/search.png');
+}

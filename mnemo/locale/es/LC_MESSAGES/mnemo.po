@@ -1,0 +1,627 @@
+# Spanish translations for Mnemo H5 package.
+# Copyright (C) 2013 Horde LLC (http://www.horde.org/)
+# This file is distributed under the same license as the Mnemo package.
+# Automatically generated, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mnemo H5 (4.1.0-git)\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2013-05-07 14:14+0200\n"
+"PO-Revision-Date: 2013-06-11 20:26+0200\n"
+"Last-Translator: Manuel P. Ayala <mayala@unex.es>, Juan C. Blanco "
+"<jcblanco@fi.upm.es>\n"
+"Language-Team: i18n@lists.horde.org\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/memo/memo.inc:51
+#, php-format
+msgid "%s characters"
+msgstr "%s caracteres"
+
+#: data.php:159
+#, php-format
+msgid "%s file successfully imported"
+msgstr "El archivo %s se ha importado satisfactoriamente"
+
+#: memo.php:95
+msgid "Access denied addings notes to this notepad."
+msgstr "Se ha denegado el acceso para añadir notas a esta libreta."
+
+#: memo.php:260
+msgid "Access denied deleting note."
+msgstr "Se ha denegado el acceso para eliminar la nota."
+
+#: memo.php:196 memo.php:199
+msgid "Access denied moving the note."
+msgstr "Se ha denegado el acceso para trasladar la nota."
+
+#: memo.php:147
+msgid "Access denied saving note to this notepad."
+msgstr "Se ha denegado el acceso para guardar la nota en esta libreta."
+
+#: lib/Block/Note.php:91
+#, php-format
+msgid "An error occurred displaying %s"
+msgstr "Error al mostrar %s"
+
+#: lib/Block/Note.php:93
+msgid "An error occurred displaying the note"
+msgstr "Se ha producido un error mostrando la nota"
+
+#: config/prefs.php:58
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: data.php:21 templates/data/import.inc:10
+msgid "CSV"
+msgstr "CSV"
+
+#: lib/Form/DeleteNotepad.php:36 lib/Form/DeleteNotepad.php:43
+#: lib/Form/EditNotepad.php:78 lib/Form/EditNotepad.php:95
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: data.php:43 templates/view/memo.inc:24
+msgid "Category"
+msgstr "Categoría"
+
+#: lib/Form/EditNotepad.php:64
+msgid "Change Permissions"
+msgstr "Cambiar permisos"
+
+#: config/prefs.php:14
+msgid "Change your note sorting and display preferences."
+msgstr "Cambia opciones de ordenación y visualización de notas."
+
+#: config/prefs.php:21
+msgid "Choose your default Notepad."
+msgstr "Elija su libreta por omisión."
+
+#: templates/list/header.inc:7
+msgid "Close Search"
+msgstr "Cerrar búsqueda"
+
+#: lib/Form/CreateNotepad.php:25
+msgid "Create"
+msgstr "Crear"
+
+#: lib/Form/CreateNotepad.php:20
+msgid "Create Notepad"
+msgstr "Crear libreta"
+
+#: lib/Application.php:115
+msgid "Create a new Notepad"
+msgstr "Crear una libreta"
+
+#: templates/view/memo.inc:30
+msgid "Created"
+msgstr "Creado"
+
+#: templates/list/memo_headers.inc:24
+msgid "Date"
+msgstr "Fecha"
+
+#: templates/memo/memo.inc:21 templates/view/memo.inc:62
+msgid "Decrypt"
+msgstr "Descifrar"
+
+#: config/prefs.php:20
+msgid "Default Notepad"
+msgstr "Libreta por omisión"
+
+#: config/prefs.php:50
+msgid "Default sorting criteria:"
+msgstr "Criterio de clasificación por omisión:"
+
+#: config/prefs.php:61
+msgid "Default sorting direction:"
+msgstr "Sentido de clasificación por omisión:"
+
+#: lib/Form/DeleteNotepad.php:35 lib/Form/EditNotepad.php:77
+#: lib/Form/EditNotepad.php:90 templates/memo/memo.inc:58
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/Form/DeleteNotepad.php:29
+#, php-format
+msgid "Delete %s"
+msgstr "Eliminar %s"
+
+#: config/prefs.php:27
+msgid "Delete Confirmation"
+msgstr "Confirmación de eliminación"
+
+#: config/prefs.php:28
+msgid "Delete button behaviour"
+msgstr "Comportamiento del botón eliminar"
+
+#: config/prefs.php:59
+msgid "Descending"
+msgstr "Descendente"
+
+#: lib/Form/CreateNotepad.php:23 lib/Form/EditNotepad.php:53
+msgid "Description"
+msgstr "Descripción"
+
+#: config/prefs.php:13
+msgid "Display Preferences"
+msgstr "Mostrar opciones"
+
+#: config/prefs.php:104
+msgid "Do you want to confirm deleting entries?"
+msgstr "¿Quiere confirmar la eliminación de entradas?"
+
+#: templates/list/memo_summaries.inc:5
+#, php-format
+msgid "Edit \"%s\""
+msgstr "Modificar \"%s\""
+
+#: lib/Form/EditNotepad.php:34
+#, php-format
+msgid "Edit %s"
+msgstr "Modificar %s"
+
+#: lib/Block/Summary.php:88 lib/Block/Summary.php:89
+#: templates/list/memo_headers.inc:14
+msgid "Edit Note"
+msgstr "Modificar nota"
+
+#: templates/list/memo_headers.inc:32
+msgid "Edit categories and colors"
+msgstr "Modificar categorías y colores"
+
+#: memo.php:126 memo.php:159
+#, php-format
+msgid "Edit: %s"
+msgstr "Modificar: %s"
+
+#: lib/Block/Summary.php:106 templates/list/memo_summaries.inc:15
+msgid "Empty Note"
+msgstr "Vaciar nota"
+
+#: lib/Driver.php:307
+msgid ""
+"Encryption support has not been configured, please contact your "
+"administrator."
+msgstr ""
+"No se ha configurado el soporte de cifrado, consulte a su administrador."
+
+#: templates/data/export.inc:14
+msgid "Export"
+msgstr "Exportar"
+
+#: templates/data/export.inc:1
+msgid "Export Notes"
+msgstr "Exportar notas"
+
+#: config/prefs.php:12 config/prefs.php:19 config/prefs.php:26
+msgid "General Preferences"
+msgstr "Pref. generales"
+
+#: templates/data/import.inc:1
+#, php-format
+msgid "Import Notes, Step %d"
+msgstr "Importar notas. Paso %d"
+
+#: data.php:166
+msgid "Import/Export Notes"
+msgstr "Importar/Exportar notas"
+
+#: templates/search/search.inc:17
+msgid "In: "
+msgstr "Entrada: "
+
+#: templates/view/memo.inc:42
+msgid "Last Modified"
+msgstr "Última modificación"
+
+#: lib/Application.php:62
+msgid "Maximum Number of Notes"
+msgstr "Número máximo de notas"
+
+#: data.php:42
+msgid "Memo Text"
+msgstr "Texto de la nota"
+
+#: config/prefs.php:48
+msgid "Modification Date"
+msgstr "Fecha de modificación"
+
+#: templates/list/header.inc:8
+msgid "More Options..."
+msgstr "Más opciones..."
+
+#: lib/Api.php:378
+msgid "Multiple iCalendar components found; only one vNote is supported."
+msgstr ""
+"Se encontraron múltiples componentes iCalendar; sólo se soporta una vNote."
+
+#: lib/Application.php:108
+msgid "My Notepads"
+msgstr "Mi libreta"
+
+#: list.php:29
+msgid "My Notes"
+msgstr "Mis notas"
+
+#: lib/Form/CreateNotepad.php:22 lib/Form/EditNotepad.php:39
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/Application.php:168 memo.php:103 memo.php:151
+msgid "New Note"
+msgstr "Añadir"
+
+#: templates/data/import.inc:36
+msgid "Next"
+msgstr "Siguiente"
+
+#: lib/Api.php:209 lib/Api.php:371
+msgid "No iCalendar data was found."
+msgstr "No se encontraron datos iCalendar."
+
+#: lib/Block/Note.php:82
+msgid "No note loaded"
+msgstr "No hay notas cargadas"
+
+#: templates/list/memo_footers.inc:4
+msgid "No notes match"
+msgstr "No hay notas coincidentes"
+
+#: templates/list/empty.inc:1
+msgid "No notes match the current criteria."
+msgstr "No hay notas que coincidan con los criterios actuales."
+
+#: lib/Block/Summary.php:114
+msgid "No notes to display"
+msgstr "Sin notas visibles"
+
+#: templates/list/memo_headers.inc:21
+msgid "No_te"
+msgstr "_Nota"
+
+#: lib/Driver/Sql.php:103
+msgid "Not Found"
+msgstr "No encontrado"
+
+#: config/prefs.php:46
+msgid "Note Category"
+msgstr "Categoría de la nota"
+
+#: view.php:89
+msgid "Note Details"
+msgstr "Detalles de la nota"
+
+#: config/prefs.php:45
+msgid "Note Text"
+msgstr "Texto de la nota"
+
+#: templates/memo/memo.inc:51
+msgid "Note _Text"
+msgstr "_Texto de la nota"
+
+#: memo.php:114 memo.php:156 note/pdf.php:52 view.php:52
+msgid "Note not found."
+msgstr "No se encontró la nota."
+
+#: templates/memo/memo.inc:64
+msgid "Note_pad:"
+msgstr "_Libreta"
+
+#: config/prefs.php:47 templates/list/memo_headers.inc:17
+msgid "Notepad"
+msgstr "Libreta"
+
+#: lib/Notepads/Default.php:64
+#, php-format
+msgid "Notepad of %s"
+msgstr "Libreta de %s"
+
+#: lib/Notepads/Kolab.php:58
+msgid "Notes"
+msgstr "Notas"
+
+#: lib/Block/Summary.php:12
+msgid "Notes Summary"
+msgstr "Resumen de notas"
+
+#: lib/Form/EditNotepad.php:42
+msgid "Owner"
+msgstr "Propietario"
+
+#: lib/Form/DeleteNotepad.php:50
+msgid "Permission denied"
+msgstr "Permiso denegado"
+
+#: lib/Form/DeleteNotepad.php:32
+#, php-format
+msgid ""
+"Really delete the notepad \"%s\"? This cannot be undone and all data on this "
+"notepad will be permanently removed."
+msgstr ""
+"¿Eliminar definitivamente la libreta \"%s\"? Ésto no se puede deshacer y "
+"todos los datos de esta libreta se eliminarán permanentemente."
+
+#: templates/view/memo.inc:15
+msgid "Really delete this note?"
+msgstr "¿Eliminar realmente esta nota?"
+
+#: lib/Form/EditNotepad.php:76 lib/Form/EditNotepad.php:85
+#: templates/memo/memo.inc:56
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/view/memo.inc:10
+msgid "Save as PDF"
+msgstr "Guardar como PDF"
+
+#: lib/Application.php:192 search.php:19 templates/list/header.inc:3
+#: templates/search/search.inc:4 templates/search/search.inc:27
+msgid "Search"
+msgstr "Buscar"
+
+#: list.php:52 notes/index.php:44
+msgid "Search Results"
+msgstr "Resultados de la búsqueda"
+
+#: templates/data/export.inc:7
+msgid "Select the export format:"
+msgstr "Seleccione el formato de exportación:"
+
+#: templates/data/import.inc:30
+msgid "Select the file to import:"
+msgstr "Seleccione el archivo a importar:"
+
+#: templates/data/import.inc:8
+msgid "Select the format of the source file:"
+msgstr "Seleccione el formato del archivo origen:"
+
+#: lib/Application.php:121
+msgid "Shared Notepads"
+msgstr "Libretas compartidas"
+
+#: config/prefs.php:37
+msgid "Should the Notepad be shown in its own column in the List view?"
+msgstr "¿Mostrar la libreta en su propia columna en la vista de Listado?"
+
+#: lib/Block/Summary.php:42
+msgid "Show action buttons?"
+msgstr "¿Mostrar botones de acción?"
+
+#: lib/Block/Summary.php:47
+msgid "Show notepad name?"
+msgstr "¿Mostrar el nombre de la libreta?"
+
+#: lib/Block/Summary.php:52
+msgid "Show notes from these categories"
+msgstr "¿Mostrar las notas de estas categorías?"
+
+#: lib/Block/Note.php:40
+msgid "Show this note"
+msgstr "Mostrar esta nota"
+
+#: memo.php:233
+#, php-format
+msgid "Successfully saved \"%s\"."
+msgstr "Se ha guardado correctamente \"%s\"."
+
+#: lib/Form/EditNotepad.php:50
+msgid "System"
+msgstr "Sistema"
+
+#: data.php:154
+#, php-format
+msgid "The %s file didn't contain any notes."
+msgstr "El archivo %s no contenía ninguna nota."
+
+#: memo.php:255
+msgid "The note was deleted."
+msgstr "Se eliminó la nota."
+
+#: notepads/create.php:29
+#, php-format
+msgid "The notepad \"%s\" has been created."
+msgstr "Se ha creado la libreta \"%s\"."
+
+#: notepads/delete.php:40
+#, php-format
+msgid "The notepad \"%s\" has been deleted."
+msgstr "Se ha eliminado la libreta \"%s\"."
+
+#: notepads/edit.php:43
+#, php-format
+msgid "The notepad \"%s\" has been renamed to \"%s\"."
+msgstr "Se ha renombrado la libreta \"%s\" como \"%s\"."
+
+#: notepads/edit.php:45
+#, php-format
+msgid "The notepad \"%s\" has been saved."
+msgstr "Se ha guardado la libreta \"%s\"."
+
+#: memo.php:149
+msgid "The passwords don't match."
+msgstr "Las contraseñas no coinciden."
+
+#: data.php:157
+#, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Se produjo un error al importar los datos: %s"
+
+#: lib/Api.php:203 lib/Api.php:365
+msgid "There was an error importing the iCalendar data."
+msgstr "Se produjo un error al importar los datos iCalendar."
+
+#: lib/Application.php:239
+#, php-format
+msgid "There was an error removing notes for %s. Details have been logged."
+msgstr ""
+"Se produjo un error al eliminar las notas de %s. Se han registrado los "
+"detalles."
+
+#: memo.php:257
+#, php-format
+msgid "There was an error removing the note: %s"
+msgstr "Se produjo un error al eliminar la nota: %s"
+
+#: memo.php:231
+#, php-format
+msgid "There was an error saving the note: %s"
+msgstr "Se produjo un error al guardar la nota: %s"
+
+#: note/pdf.php:42 view.php:42
+#, php-format
+msgid "There was an error viewing this notepad: %s"
+msgstr "Se produjo un error al ver esta libreta: %s"
+
+#: data.php:70
+msgid "This file format is not supported."
+msgstr "Este formato de archivo no está soportado."
+
+#: memo.php:38 view.php:74
+msgid "This note cannot be decrypted:"
+msgstr "Esta nota no se puede descifrar:"
+
+#: memo.php:31 memo.php:41 view.php:69 view.php:77
+msgid ""
+"This note has been encrypted, and cannot be decrypted without a secure web "
+"connection"
+msgstr ""
+"Esta nota se ha cifrado y no se puede descifrar sin una conexión web segura"
+
+#: memo.php:28 view.php:66
+msgid "This note has been encrypted, please provide the password below"
+msgstr "Esta nota se ha cifrado, introduzca la contrasela a continuación"
+
+#: lib/Api.php:276 lib/Driver/Kolab.php:296 lib/Driver/Sql.php:327
+msgid "This note has been encrypted."
+msgstr "Esta nota se ha cifrado."
+
+#: lib/Block/Summary.php:109 lib/Mnemo.php:335 lib/Mnemo.php:336
+#: templates/list/memo_summaries.inc:20 templates/view/memo.inc:25
+msgid "Unfiled"
+msgstr "Sin categoría"
+
+#: lib/Api.php:242 lib/Api.php:304 lib/Api.php:394
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "Tipo de contenido no soportado: %s"
+
+#: lib/Block/Note.php:22
+msgid "View note"
+msgstr "Ver nota"
+
+#: templates/data/import.inc:15
+msgid "Which Notepad should the notes be added to?"
+msgstr "¿A qué libreta hay que añadir las notas?"
+
+#: data.php:34 data.php:91 memo.php:75
+#, php-format
+msgid "You are not allowed to create more than %d notes."
+msgstr "Carece de permisos para crear más de %d notas."
+
+#: notepads/delete.php:30
+msgid "You are not allowed to delete this notepad."
+msgstr "Carece de permisos para eliminar esta libreta."
+
+#: notepads/edit.php:32
+msgid "You are not allowed to see this notepad."
+msgstr "Carece de permisos para ver esta libreta."
+
+#: lib/Ajax/Imple/EditNote.php:27
+msgid "You do not have permission to edit this note."
+msgstr "Carece de permisos para modificar esta nota."
+
+#: note/pdf.php:46 view.php:46
+msgid "You do not have permission to view this notepad."
+msgstr "Carece de permisos para ver esta libreta."
+
+#: config/prefs.php:80
+msgid "Your default notepad:"
+msgstr "Su libreta por omisión:"
+
+#: templates/search/search.inc:21
+msgid "_Body"
+msgstr "_Cuerpo"
+
+#: templates/list/memo_headers.inc:28
+msgid "_Category"
+msgstr "_Categoría"
+
+#: templates/memo/memo.inc:79
+msgid "_Category:"
+msgstr "_Categoría"
+
+#: templates/view/memo.inc:15
+msgid "_Delete"
+msgstr "_Eliminar"
+
+#: templates/view/memo.inc:12
+msgid "_Edit"
+msgstr "Mo_dificar"
+
+#: templates/memo/memo.inc:85
+msgid "_Encrypt?"
+msgstr "¿Ci_frar?"
+
+#: templates/search/search.inc:9
+msgid "_For: "
+msgstr "Te_xto: "
+
+#: lib/Application.php:81
+msgid "_Import/Export"
+msgstr "_Importar/Exportar"
+
+#: lib/Application.php:74
+msgid "_List Notes"
+msgstr "_Listar"
+
+#: lib/Application.php:97
+msgid "_New Note"
+msgstr "_Añadir"
+
+#: templates/memo/memo.inc:19 templates/view/memo.inc:60
+msgid "_Password"
+msgstr "Contra_seña"
+
+#: templates/memo/memo.inc:90
+msgid "_Password:"
+msgstr "Contra_seña:"
+
+#: templates/memo/memo.inc:94
+msgid "_Repeat:"
+msgstr "_Repetir:"
+
+#: lib/Application.php:77
+msgid "_Search"
+msgstr "_Buscar"
+
+#: templates/search/search.inc:20
+msgid "_Title"
+msgstr "_Título"
+
+#: lib/Driver/Sql.php:361 lib/Driver/Sql.php:370
+#, php-format
+msgid "by %s"
+msgstr "por %s"
+
+#: lib/Driver/Sql.php:363 lib/Driver/Sql.php:372
+msgid "by me"
+msgstr "por mi"
+
+#: lib/Application.php:180
+#, php-format
+msgid "in %s"
+msgstr "a %s"
+
+#: lib/Application.php:276 templates/data/export.inc:3
+msgid "notes.csv"
+msgstr "notas.csv"
+
+#: data.php:22 templates/data/import.inc:11
+msgid "vNote"
+msgstr "vNote"

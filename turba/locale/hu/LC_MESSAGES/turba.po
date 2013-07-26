@@ -1,0 +1,1866 @@
+# Horde Hungarian translation file
+# Copyright 2012-2013 Horde LLC (http://www.horde.org/)
+# This file is distributed under the same license as the Horde package.
+# Latest versions: http://etit.hu/hun_horde_project.php
+msgid ""
+msgstr ""
+"Project-Id-Version: Turba H4 (3.0.11-git)\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2012-01-17 12:38+0100\n"
+"PO-Revision-Date: 2012-03-30 14:59+0200\n"
+"Last-Translator: Zoltán Németh <nemeth.zoltan@etit.hu>\n"
+"Language-Team: ETITEAM Kft. <info@etit.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: data.php:465
+#, php-format
+msgid "\"%s\" already exists and was not imported."
+msgstr "\"%s\" már létezik, nem importáltuk."
+
+#: lib/Form/EditContact.php:84
+#, php-format
+msgid "\"%s\" updated, but saving the uploaded file failed: %s"
+msgstr ""
+"\"%s\" adatait módosítottuk, de nem sikerült elmenteni a feltöltött "
+"állományt: %s"
+
+#: lib/Form/EditContact.php:82 lib/Form/EditContact.php:87
+#, php-format
+msgid "\"%s\" updated."
+msgstr "\"%s\" új adatait elmentettük."
+
+#: lib/View/Browse.php:219
+#, php-format
+msgid "\"%s\" was not copied because it is a list."
+msgstr "Mivel \"%s\" egy lista, ezért nem másoltuk át."
+
+#: lib/View/Browse.php:214
+#, php-format
+msgid "\"%s\" was not moved because it is a list."
+msgstr "Mivel \"%s\" egy lista, ezért nem helyeztük át."
+
+#: config/prefs.php:120 config/prefs.php:132
+msgid "\"Firstname Lastname\"  (ie. John Doe)"
+msgstr "\"Keresztnév Vezetéknév\"  (pl. János Kovács)"
+
+#: config/prefs.php:119 config/prefs.php:131
+msgid "\"Lastname, Firstname\" (ie. Doe, John)"
+msgstr "\"Vezetéknév, Keresztnév\"  (pl. Kovács, János)"
+
+#: lib/Driver.php:662
+#, php-format
+msgid "%d. %s of %s"
+msgstr "%d. %s  / %s"
+
+#: lib/Form/AddContact.php:89
+#, php-format
+msgid "%s added."
+msgstr "%s bevitele megtörtént."
+
+#: data.php:495
+#, php-format
+msgid "%s file successfully imported."
+msgstr "%s fájl importálása sikeresen megtörtént."
+
+#: lib/Api.php:1435
+#, php-format
+msgid "%s in %s"
+msgstr "%s / %s"
+
+#: templates/list/numPager.inc:6
+#, php-format
+msgid "%s to %s of %s"
+msgstr "%s - %s (összesen %s)"
+
+#: templates/search/duplicate/contact_header.html.php:14
+msgid "<< Merge this into the first contact"
+msgstr "<< Egyesítse ezt az első névjeggyel"
+
+#: lib/Block/Minisearch.php:62
+msgid "A browser that supports iframes is required"
+msgstr "Ehhez iFrame funkcionalitással rendelkező böngészőprogram szükséges"
+
+#: view.php:49
+#, php-format
+msgid "Access denied to %s"
+msgstr "%s eléréséhez nem rendelkezik megfelelő jogosultsággal."
+
+#: lib/Form/AddContact.php:17 templates/browse/actions.inc:30
+msgid "Add"
+msgstr "Bevitel"
+
+#: lib/Form/EditContact.php:33
+msgid "Add file"
+msgstr "Fájl hozzáadása"
+
+#: templates/browse/actions.inc:30
+msgid "Add to"
+msgstr "Adjuk hozzá"
+
+#: lib/Api.php:1605
+#, php-format
+msgid "Added or updated %d contact, but at least one contact failed:"
+msgid_plural "Added or updated %d contacts, but at least one contact failed:"
+msgstr[0] ""
+"A %d névjegy hozzáadva vagy frissítve, de legalább egy hiba történt:"
+msgstr[1] ""
+"A %d névjegyek hozzáadva vagy frissítve, de legalább egy hiba történt:"
+
+#: lib/Driver.php:2878
+msgid "Adding contacts is not available."
+msgstr "Partnerek hozzáadása nem lehetséges."
+
+#: templates/addressbook_list.php:16 templates/search/advanced.html.php:11
+msgid "Address Book"
+msgstr "Címjegyzék"
+
+#: templates/addressbook_list.php:12
+msgid "Address Book List"
+msgstr "Címjegyzék lista"
+
+#: config/prefs.php:108 lib/View/Browse.php:65
+msgid "Address Book Listing"
+msgstr "Címjegyzék lista"
+
+#: config/prefs.php:12 config/prefs.php:13 config/prefs.php:19
+#: lib/Block/Minisearch.php:43
+msgid "Address Books"
+msgstr "Címjegyzékek"
+
+#: lib/Turba.php:630
+#, php-format
+msgid "Address book of %s"
+msgstr "Címjegyzékek %s"
+
+#: data.php:440
+msgid "Address book successfully purged."
+msgstr "A címjegyzéket sikeresen töröltük."
+
+#: lib/Application.php:259
+msgid "Address books that will not be displayed:"
+msgstr "Nem megjelenítendő címjegyzékek:"
+
+#: search.php:207 search.php:248
+msgid "Advanced Search"
+msgstr "Részletes keresés"
+
+#: config/attributes.php:84
+msgid "Alias"
+msgstr "Alias"
+
+#: templates/list/alphaPager.inc:7 templates/list/alphaPager.inc:9
+msgid "All"
+msgstr "Összeset"
+
+#: lib/Application.php:373
+msgid ""
+"All state removed for your ActiveSync devices. They will resynchronize next "
+"time they connect to the server."
+msgstr ""
+"Az összes állapot elávolításra került az ActiveSync eszközökről. A "
+"legközelbbi kapcsolódásukkor újra szinkronizálnak."
+
+#: lib/Api.php:736
+msgid "Already Exists"
+msgstr "Már létezik"
+
+#: config/attributes.php:107
+msgid "Anniversaries"
+msgstr "Évfordulók"
+
+#: config/attributes.php:103
+msgid "Anniversary"
+msgstr "Évforduló"
+
+#: lib/Turba.php:676
+#, php-format
+msgid "Are you sure that you want to delete %s?"
+msgstr "Biztos, hogy törölni kívánja %s-t?"
+
+#: lib/Turba.php:681
+msgid "Are you sure that you want to delete the selected contacts?"
+msgstr "Biztos abban, hogy törölni kívánja a kijelült személyeket?"
+
+#: config/attributes.php:490
+msgid "Assistant"
+msgstr "Helyettes"
+
+#: config/attributes.php:309
+msgid "Assistant Phone"
+msgstr "Helyettes telefonszáma"
+
+#: search.php:206 search.php:241
+msgid "Basic Search"
+msgstr "Keresés"
+
+#: lib/Driver/Ldap.php:92
+#, php-format
+msgid "Bind failed: (%s) %s"
+msgstr "A kapcsolat felvétele nem sikerült: (%s) %s"
+
+#: config/attributes.php:96
+msgid "Birthday"
+msgstr "Születésnap"
+
+#: config/attributes.php:100
+msgid "Birthdays"
+msgstr "Születésnapok"
+
+#: contact.php:111 templates/browse/row.inc:10
+msgid "Blank name"
+msgstr "Üres név"
+
+#: templates/browse/actions.inc:51
+msgid "Both"
+msgstr "Mindkettő"
+
+#: addressbooks/index.php:39 templates/addressbook_list.php:29
+#: templates/menu.inc:8
+msgid "Browse"
+msgstr "Böngészés"
+
+#: config/attributes.php:381
+msgid "Business Category"
+msgstr "Üzleti kategória"
+
+#: data.php:95
+msgid "CSV"
+msgstr "CSV (vesszővel elválasztott értékek)"
+
+#: lib/Object/Group.php:65
+msgid "Can't add a group to itself."
+msgstr "Csoport nem adható tagként önmagához."
+
+#: lib/Form/DeleteAddressBook.php:33 lib/Form/DeleteAddressBook.php:44
+msgid "Cancel"
+msgstr "Mégse"
+
+#: config/attributes.php:324
+msgid "Car Phone"
+msgstr "Autó telefonszáma"
+
+#: config/attributes.php:458
+msgid "Category"
+msgstr "Kategória"
+
+#: templates/browse/column_headers.inc:25
+#, php-format
+msgid "Change %s sort to %s"
+msgstr "A %s sorrend megváltoztatása %s-re"
+
+#: addressbooks/index.php:41 templates/addressbook_list.php:33
+msgid "Change Permissions"
+msgstr "Jogosultságok megváltoztatása"
+
+#: templates/browse/column_headers.inc:8
+msgid "Check All/None"
+msgstr "Jelöljük ki mind/egyiket sem"
+
+#: templates/browse/column_headers.inc:8
+msgid "Check _All/None"
+msgstr "Jelöljük ki mind/egyiket sem"
+
+#: config/attributes.php:116
+msgid "Children"
+msgstr "Gyerekek"
+
+#: lib/Form/AddContact.php:28
+msgid "Choose an address book"
+msgstr "Válasszon egy címjegyzéket"
+
+#: lib/Application.php:253
+msgid "Choose which address books to display, and in what order:"
+msgstr ""
+"Válassza ki, hogy mely címjegyzékeket kívánja megjeleníteni és milyen "
+"sorrendben:"
+
+#: config/prefs.php:21
+msgid ""
+"Choose which address books to use for synchronization with external devices."
+msgstr ""
+"Válassza ki, hogy mely címjegyzékeket kívánja szinkronizálni a külső "
+"eszközre."
+
+#: config/prefs.php:14
+msgid "Choose which address books to use."
+msgstr "Válassza ki, hogy melyik címjegyzéket kívánja használni."
+
+#: templates/prefs/column.html:7
+msgid ""
+"Click an address book to sort its columns. Drag columns to re-arrange them. "
+"Check a column to enable it."
+msgstr ""
+"Kattintson egy címjegyzékre az oszlpok rendezéséhez. Húzza az oszlopokat az "
+"újrarendezésükhöz. Jelölje ki az engedélyezni kívánt oszlopokat."
+
+#: templates/block/minisearch.inc:21
+msgid "Close"
+msgstr "Bezárás"
+
+#: templates/browse/header.inc:7
+msgid "Close Search"
+msgstr "A keresés bezárása"
+
+#: config/prefs.php:27
+msgid "Column Preferences"
+msgstr "Oszlopok beállítása"
+
+#: templates/data/export.inc:12 templates/data/import.inc:13
+msgid "Comma separated values"
+msgstr "Vesszővel elválasztott értékek"
+
+#: templates/data/export.inc:13
+msgid "Comma separated values (Microsoft Outlook)"
+msgstr "Vesszővel elválasztott értékek (Microsoft Outlook)"
+
+#: config/attributes.php:588
+msgid "Common Address Extended"
+msgstr "Közösségi cím: bővebb"
+
+#: config/attributes.php:606
+msgid "Common City"
+msgstr "Közösségi cím: város"
+
+#: config/attributes.php:624
+msgid "Common Country"
+msgstr "Közösségi cím: ország"
+
+#: config/attributes.php:532
+msgid "Common Phone"
+msgstr "Közösségi telefon"
+
+#: config/attributes.php:600
+msgid "Common Post Office Box"
+msgstr "Közösségi cím: postafiók"
+
+#: config/attributes.php:618
+msgid "Common Postal Code"
+msgstr "Közösségi cím: irányítószám"
+
+#: config/attributes.php:612
+msgid "Common State/Province"
+msgstr "Közösségi cím: állam/tartomány"
+
+#: config/attributes.php:594
+msgid "Common Street"
+msgstr "Közösségi cím: utca"
+
+#: config/attributes.php:557
+msgid "Common Video Call"
+msgstr "Közösségi video telefon"
+
+#: config/backends.php:338
+msgid "Communications"
+msgstr "Elérhetőségek"
+
+#: config/attributes.php:387
+msgid "Company"
+msgstr "Cég"
+
+#: config/attributes.php:220
+msgid "Company Address"
+msgstr "Céges cím"
+
+#: config/attributes.php:314
+msgid "Company Phone"
+msgstr "Céges telefon"
+
+#: lib/Driver/Ldap.php:59
+msgid "Connection failure"
+msgstr "A kapcsolat nem sikerült"
+
+#: lib/Block/Minisearch.php:25
+msgid "Contact Search"
+msgstr "Partnerkeresés"
+
+#: lib/Driver/Kolab.php:648
+msgid "Contacts"
+msgstr "Partnerek"
+
+#: templates/list/numPager.inc:3
+msgid "Contacts displayed:"
+msgstr "A megjelenített partnerek:"
+
+#: lib/View/Browse.php:463
+#, php-format
+msgid "Contacts in list: %s"
+msgstr "A %s lista tagjai"
+
+#: templates/browse/actions.inc:18
+msgid "Copy"
+msgstr "Másoljuk át"
+
+#: templates/search/duplicate/list.html.php:11
+msgid "Count"
+msgstr "Számol"
+
+#: lib/Form/CreateAddressBook.php:27
+msgid "Create"
+msgstr "Létrehozás"
+
+#: lib/Form/CreateAddressBook.php:22
+msgid "Create Address Book"
+msgstr "Címjegyzék létrehozása"
+
+#: templates/addressbook_list.php:8
+msgid "Create a new Address Book"
+msgstr "Új címjegyzék létrehozása"
+
+#: lib/View/List.php:466
+msgid "Create a new Contact List in:"
+msgstr "Új partnerlista létrehozása itt:"
+
+#: lib/View/Contact.php:48
+msgid "Created"
+msgstr "Létrehozva"
+
+#: contact.php:86
+msgid "De_lete"
+msgstr "Törlés"
+
+#: addressbooks/index.php:42 lib/Form/DeleteAddressBook.php:33
+#: lib/View/DeleteContact.php:61 templates/addressbook_list.php:35
+#: templates/browse/actions.inc:3
+#: templates/search/duplicate/contact_header.html.php:22
+msgid "Delete"
+msgstr "Törlés"
+
+#: lib/Form/DeleteAddressBook.php:28 lib/View/DeleteContact.php:30
+#, php-format
+msgid "Delete %s"
+msgstr "%s törlése"
+
+#: lib/Api.php:414
+msgid "Delete denied."
+msgstr "A törlés megtagadva"
+
+#: lib/Driver/Ldap.php:328
+#, php-format
+msgid "Delete failed: (%s) %s"
+msgstr "A törlés nem sikerült: (%s) %s"
+
+#: lib/Driver.php:2891
+msgid "Deleting contacts is not available."
+msgstr "Partnerek törlése nem lehetséges."
+
+#: delete.php:41
+msgid "Deletion failed"
+msgstr "A törlés nem sikerült"
+
+#: config/attributes.php:393
+msgid "Department"
+msgstr "Részleg"
+
+#: lib/Form/CreateAddressBook.php:25 lib/Form/EditAddressBook.php:34
+msgid "Description"
+msgstr "Leírás"
+
+#: config/prefs.php:34
+msgid "Display"
+msgstr "Megjelenítés"
+
+#: config/prefs.php:26 config/prefs.php:33 config/prefs.php:40
+msgid "Display Preferences"
+msgstr "Megjelenítési beállítások"
+
+#: lib/Object.php:425
+msgid "Download"
+msgstr "Letöltés"
+
+#: templates/browse/column_headers.inc:14 templates/browse/row.inc:26
+msgid "Download vCard"
+msgstr "vCard letöltés"
+
+#: search.php:209 search.php:255
+msgid "Duplicate Search"
+msgstr "Duplikált keresés"
+
+#: templates/search/duplicate/list.html.php:6
+#, php-format
+msgid "Duplicates of %s"
+msgstr "Ismétlődések %s"
+
+#: templates/search/duplicate/header.html.php:2
+#, php-format
+msgid "Duplicates of %s \"%s\""
+msgstr "Ismétlődések %s \"%s\""
+
+#: addressbooks/index.php:40 templates/addressbook_list.php:31
+#: templates/browse/actions.inc:6 templates/browse/column_headers.inc:11
+#: templates/browse/row.inc:37
+#: templates/search/duplicate/contact_header.html.php:29
+msgid "Edit"
+msgstr "Módosítás"
+
+#: edit.php:90
+#, php-format
+msgid "Edit \"%s\""
+msgstr "\"%s\" módosítása"
+
+#: lib/Form/EditAddressBook.php:30 lib/View/EditContact.php:29
+#, php-format
+msgid "Edit %s"
+msgstr "%s módosítása"
+
+#: config/attributes.php:276
+msgid "Email"
+msgstr "Email"
+
+#: config/attributes.php:282
+msgid "Emails"
+msgstr "Email címek"
+
+#: lib/View/Browse.php:350 lib/View/Browse.php:417
+#, php-format
+msgid "Error adding %d contact(s) to list."
+msgstr "Nem sikerült %d partner hozzáadása a listához."
+
+#: lib/View/Browse.php:355 lib/View/Browse.php:422
+#, php-format
+msgid "Error adding %d of %d requested contact(s) to list."
+msgstr "%d partner listához történő hozzáadása nem sikerült a kívánt %d-ből."
+
+#: lib/View/Browse.php:138
+#, php-format
+msgid "Error deleting %d contact."
+msgid_plural "Error deleting %d contacts."
+msgstr[0] "Nem sikerült %d névjegy törlése."
+msgstr[1] "Nem sikerült %d névjegyek törlése."
+
+#: lib/View/Browse.php:143
+#, php-format
+msgid "Error deleting %d of %d requested contact."
+msgid_plural "Error deleting %d of %d requested contacts."
+msgstr[0] "%d névjegy törlése nem sikerült a kívánt %d-ből."
+msgstr[1] "%d névjegyek törlése nem sikerült a kívánt %d-ből."
+
+#: lib/View/Browse.php:109
+#, php-format
+msgid "Error removing %d contact(s) from list."
+msgstr "%d partner törlése nem sikerült a listából."
+
+#: lib/View/Browse.php:114
+#, php-format
+msgid "Error removing %d of %d requested contact(s) from list."
+msgstr "A listából nem sikerült %d partnert törölni a kívánt %d-ből."
+
+#: lib/Api.php:466
+#, php-format
+msgid "Error searching the address book: %s"
+msgstr "A(z) %s címjegyzékben nem sikerült keresni."
+
+#: templates/browse/actions.inc:10 templates/data/export.inc:43
+msgid "Export"
+msgstr "Exportálás"
+
+#: templates/data/export.inc:6
+msgid "Export Address Book"
+msgstr "Címjegyzék exportálása"
+
+#: templates/data/export.inc:23
+msgid "Export only the selected contacts."
+msgstr "Csak a kijelölt levelezőpartnereket exportáljuk."
+
+#: templates/data/export.inc:29
+msgid "Export the following address book completely."
+msgstr "A teljes címjegyzéket exportáljuk."
+
+#: config/backends.php:651
+msgid "Facebook Friends"
+msgstr "Facebook ismerősök"
+
+#: lib/View/Browse.php:249
+#, php-format
+msgid "Failed to add %s to %s: %s"
+msgstr "Nem sikerült %s hozzáadása %s-hez: %s"
+
+#: lib/View/Browse.php:481
+msgid "Failed to browse list"
+msgstr "Nem sikerült a lista böngészése"
+
+#: lib/Driver/Ldap.php:369
+#, php-format
+msgid "Failed to change name: (%s) %s; Old DN = %s, New DN = %s, Root = %s"
+msgstr ""
+"A következő nevet nem sikerült megváltoztatni: (%s) %s; A régi DN=%s, az új "
+"DN=%s, gyökér = %s"
+
+#: lib/View/Browse.php:205
+#, php-format
+msgid "Failed to find object to be added: %s"
+msgstr "Nem sikerült megtalálni a beviendő objektumot: %s"
+
+#: search.php:181
+msgid "Failed to search the address book"
+msgstr "A címjegyzékben nem sikerült a keresés"
+
+#: data.php:258
+#, php-format
+msgid "Failed to search the directory: %s"
+msgstr "Nem sikerült a %s címtárban való keresés"
+
+#: config/backends.php:620
+msgid "Favourite Recipients"
+msgstr "Kedvenc címzettek"
+
+#: config/attributes.php:334
+msgid "Fax"
+msgstr "Fax"
+
+#: lib/Form/Contact.php:37
+msgid "Files"
+msgstr "Fájlok"
+
+#: templates/search/basic.html.php:15
+msgid "Find"
+msgstr "Mező"
+
+#: lib/Form/EditContactGroup.php:21 lib/Form/EditContactGroup.php:25
+#: lib/Form/EditContactGroup.php:29 lib/Form/EditContactGroup.php:34
+#: lib/Form/EditContactGroup.php:69
+msgid "Finish"
+msgstr "Befejezés"
+
+#: config/attributes.php:54
+msgid "First Name"
+msgstr "Keresztnév"
+
+#: config/attributes.php:431
+msgid "Freebusy URL"
+msgstr "Időbeosztási web cím"
+
+#: templates/search/basic.html.php:7
+msgid "From"
+msgstr "Honnan"
+
+#: config/attributes.php:496
+msgid "Gender"
+msgstr "Nem"
+
+#: templates/browse/row.inc:56
+msgid "Group"
+msgstr "Csoport"
+
+#: config/attributes.php:136
+msgid "Home Address"
+msgstr "Otthoni cím: utca"
+
+#: config/attributes.php:658
+msgid "Home Address Extended"
+msgstr "Otthoni cím: bővebb"
+
+#: config/attributes.php:154
+msgid "Home City"
+msgstr "Otthoni cím: város"
+
+#: config/attributes.php:172
+msgid "Home Country"
+msgstr "Otthoni cím: ország"
+
+#: config/attributes.php:526
+msgid "Home Email"
+msgstr "Otthoni email"
+
+#: config/attributes.php:339 config/attributes.php:542
+msgid "Home Fax"
+msgstr "Otthoni fax"
+
+#: config/attributes.php:664
+msgid "Home Latitude"
+msgstr "Otthoni földrajzi szélesség"
+
+#: config/attributes.php:669
+msgid "Home Longitude"
+msgstr "Otthoni földrajzi hosszúság"
+
+#: config/attributes.php:552
+msgid "Home Mobile Phone"
+msgstr "Otthoni mobiltelefon"
+
+#: config/attributes.php:288 config/attributes.php:293
+msgid "Home Phone"
+msgstr "Otthoni telefon"
+
+#: config/attributes.php:148
+msgid "Home Post Office Box"
+msgstr "Otthoni cím: postafiók"
+
+#: config/attributes.php:166
+msgid "Home Postal Code"
+msgstr "Otthoni cím: irányítószám"
+
+#: config/attributes.php:160
+msgid "Home State/Province"
+msgstr "Otthoni cím: állam/tartomány"
+
+#: config/attributes.php:142
+msgid "Home Street Address"
+msgstr "Otthoni cím: utca, házszám"
+
+#: config/attributes.php:567
+msgid "Home Video Call"
+msgstr "Otthoni video telefon"
+
+#: config/attributes.php:652
+msgid "Home Website URL"
+msgstr "Otthoni web cím"
+
+#: config/attributes.php:349 config/attributes.php:355
+#: config/attributes.php:361
+msgid "IM Address"
+msgstr "Otthoni cím: utca"
+
+#: config/backends.php:776
+msgid "IMSP"
+msgstr "IMSP"
+
+#: templates/data/import.inc:7
+#, php-format
+msgid "Import Address Book, Step %d"
+msgstr "Címjegyzék importálása, %d. lépés"
+
+#: data.php:513
+msgid "Import/Export Address Books"
+msgstr "Címjegyzékek import/exportja"
+
+#: config/attributes.php:472
+msgid "Initials"
+msgstr "Kezdőbetűk"
+
+#: config/attributes.php:478
+msgid "Instant Messenger"
+msgstr "Azonnali üzenetküldő"
+
+#: lib/Api.php:801 lib/Api.php:971
+msgid "Invalid ID"
+msgstr "Hibás/elfogadhatatlan ID."
+
+#: lib/Api.php:102 lib/Api.php:458 lib/Api.php:522 lib/Api.php:610
+#: lib/Api.php:657 lib/Api.php:797 lib/Api.php:967 lib/Api.php:1029
+#: lib/Api.php:1615
+#, php-format
+msgid "Invalid address book: %s"
+msgstr "Hibás címjegyzék: %s"
+
+#: lib/Api.php:1033
+msgid "Invalid contact unique ID"
+msgstr "Érvénytelen névjegy azonosító"
+
+#: lib/Api.php:1619 lib/Api.php:1704 lib/Api.php:1775
+msgid "Invalid email"
+msgstr "Hibás email cím."
+
+#: lib/Api.php:1627
+msgid "Invalid entry"
+msgstr "Hibás/elfogadhatatlan adat."
+
+#: lib/Driver/Ldap.php:324
+msgid "Invalid key specified."
+msgstr "Hibás/elfogadhatatlan kulcs."
+
+#: lib/Api.php:1623
+msgid "Invalid name"
+msgstr "Hibás/elfogadhatatlan név."
+
+#: config/attributes.php:369
+msgid "Job Title"
+msgstr "Munkakör"
+
+#: config/attributes.php:466
+msgid "Kolab Home Server"
+msgstr "Kolab Home Server"
+
+#: lib/Driver/Ldap.php:43
+msgid ""
+"LDAP support is required but the LDAP module is not available or not loaded."
+msgstr ""
+"LDAP támogatásra lenne szükség, de az LDAP modul nem áll rendelkezésre, vagy "
+"nem töltődött be."
+
+#: data.php:100 templates/data/export.inc:17 templates/data/import.inc:18
+msgid "LDIF Address Book"
+msgstr "LDIF címjegyzék"
+
+#: config/attributes.php:502
+msgid "Language"
+msgstr "Nyelv"
+
+#: lib/View/Contact.php:48
+msgid "Last Modified"
+msgstr "Utolsó módosítás"
+
+#: config/attributes.php:60
+msgid "Last Name"
+msgstr "Családnév"
+
+#: templates/search/duplicate/contact_header.html.php:4
+msgid "Last change: "
+msgstr "Utolsó módosítás:"
+
+#: config/attributes.php:508
+msgid "Latitude"
+msgstr "Földrajzi szélesség"
+
+#: templates/browse/column_headers.inc:17
+msgid "List"
+msgstr "Lista"
+
+#: config/backends.php:333
+msgid "Location"
+msgstr "Hely"
+
+#: config/attributes.php:405
+msgid "Logo"
+msgstr "Logo"
+
+#: config/attributes.php:411
+msgid "Logo MIME Type"
+msgstr "Logo MIME típusa"
+
+#: config/attributes.php:513
+msgid "Longitude"
+msgstr "Földrajzi hosszúság"
+
+#: lib/Api.php:386
+msgid "Malformed request."
+msgstr "Hibás kérés."
+
+#: addressbooks/index.php:45 templates/addressbook_list.php:2
+msgid "Manage Address Books"
+msgstr "Címjegyzékek rendezése"
+
+#: config/attributes.php:484
+msgid "Manager"
+msgstr "Menedzser"
+
+#: contact.php:99
+msgid "Mark this as your own contact"
+msgstr "Saját névjegyként jelöli meg"
+
+#: templates/search/basic.html.php:23
+msgid "Matching"
+msgstr "Eggyezés"
+
+#: lib/Application.php:147
+msgid "Maximum Number of Contacts"
+msgstr "A partnerek maximális száma"
+
+#: config/prefs.php:93
+msgid "Maximum number of pages"
+msgstr "Az oldalak maximális száma"
+
+#: config/attributes.php:66
+msgid "Middle Names"
+msgstr "További keresztnevek"
+
+#: lib/Driver/Ldap.php:362
+msgid "Missing DN in LDAP source configuration."
+msgstr "Az LDAP szerver konfigurációjában nincs megadva a DN."
+
+#: config/attributes.php:319
+msgid "Mobile Phone"
+msgstr "Mobiltelefon"
+
+#: lib/Driver/Ldap.php:390 lib/Driver/Ldap.php:416
+#, php-format
+msgid "Modify failed: (%s) %s"
+msgstr "A módosítás nem sikerült: (%s) %s"
+
+#: templates/browse/header.inc:8
+msgid "More Options..."
+msgstr "További beállítások..."
+
+#: lib/Api.php:1751
+msgid "More than 1 entry found"
+msgstr "Több, mint 1 találat van"
+
+#: templates/browse/actions.inc:16
+msgid "Move"
+msgstr "Tegyük át"
+
+#: data.php:98 templates/data/import.inc:16
+msgid "Mulberry Address Book"
+msgstr "Mulberry címjegyzék"
+
+#: lib/Api.php:1045
+msgid "Multiple contacts found with same unique ID."
+msgstr "Több névjegyet találtunk hasonló azonosítóval."
+
+#: lib/Api.php:1650
+#, php-format
+msgid ""
+"Multiple persons with address [%s], but none with name [%s] already exist"
+msgstr ""
+"Több személy is van már, akinek a címe [%s], de egyiknek sem [%s] a neve"
+
+#: config/backends.php:493
+msgid "My Address Book"
+msgstr "Saját címjegyzék"
+
+#: config/attributes.php:48 lib/Form/CreateAddressBook.php:24
+#: lib/Form/EditAddressBook.php:33
+msgid "Name"
+msgstr "Név"
+
+#: config/prefs.php:41
+msgid "Name Format"
+msgstr "Név formátum"
+
+#: config/attributes.php:72
+msgid "Name Prefixes"
+msgstr "Név előttiek"
+
+#: config/attributes.php:78
+msgid "Name Suffixes"
+msgstr "Név utániak"
+
+#: templates/search/vbook.html.php:6
+msgid "Name:"
+msgstr "Név:"
+
+#: add.php:71 lib/Application.php:496
+msgid "New Contact"
+msgstr "Új levelezőpartner"
+
+#: lib/Form/EditContactGroup.php:24 lib/Form/EditContactGroup.php:33
+#: lib/Form/EditContactGroup.php:83 templates/data/import.inc:46
+msgid "Next"
+msgstr "Következő"
+
+#: config/attributes.php:90
+msgid "Nickname"
+msgstr "Becenév"
+
+#: lib/Api.php:1754 lib/Api.php:1812
+#, php-format
+msgid "No %s entry found for %s"
+msgstr "Nincs %s adat a(z) %s címhez"
+
+#: data.php:87
+msgid ""
+"No Address Books are currently available. Import and Export is disabled."
+msgstr ""
+"Jelenleg egy címjegyzék sem érhető el. Az import ill. export funkció nem "
+"működik."
+
+#: search.php:74
+msgid "No Address Books are currently available. Searching is disabled."
+msgstr "Jelenleg egy címjegyzék sem érhető el. Keresés nem lehetséges."
+
+#: lib/Api.php:452 lib/Api.php:510 lib/Api.php:603 lib/Api.php:792
+#: lib/Api.php:962 lib/Api.php:1024
+msgid "No address book specified"
+msgstr "Egy címjegyzék sem található"
+
+#: minisearch.php:75
+msgid "No contacts found"
+msgstr "Nem találtunk egy partnert sem"
+
+#: templates/browse/column_headers.inc:44
+msgid "No contacts match the current filter."
+msgstr "Nincs a feltételeknek megfelelő partner."
+
+#: lib/View/List.php:235
+msgid "No matching contacts"
+msgstr "Nincs ilyen partner"
+
+#: lib/Driver/Favourites.php:147
+msgid "No source for favourite recipients exists."
+msgstr "Nincsenek kedvenc címzettek."
+
+#: lib/Api.php:689 lib/Api.php:1064
+msgid "No vCard data was found."
+msgstr "Nem sikerült vCard adatot találni."
+
+#: lib/Application.php:407 templates/list/numPager.inc:8
+msgid "None"
+msgstr "Nincs"
+
+#: lib/View/Contact.php:26 lib/View/DeleteContact.php:28
+#: lib/View/EditContact.php:27
+msgid "Not Found"
+msgstr "Nem található"
+
+#: deletefile.php:18 edit.php:44
+msgid "Not found"
+msgstr "Nem található"
+
+#: config/attributes.php:419
+msgid "Notes"
+msgstr "Megjegyzés"
+
+#: config/prefs.php:99
+msgid "Number of items per page"
+msgstr "Az oldalon megjelenítendő elemek száma"
+
+#: lib/Api.php:856 lib/Api.php:1100
+msgid "Object not found"
+msgstr "Az objektum nem található meg"
+
+#: lib/Driver/Kolab.php:479
+#, php-format
+msgid "Object with UID %s does not exist!"
+msgstr "Az %s azonosítójú elem nem létezik!"
+
+#: config/attributes.php:375
+msgid "Occupation"
+msgstr "Foglalkozás"
+
+#: config/attributes.php:399
+msgid "Office"
+msgstr "Hivatal/munkahely"
+
+#: lib/Api.php:1072
+msgid "Only one vcard supported."
+msgstr "Csak egy vcard megengedett."
+
+#: config/backends.php:342
+msgid "Organization"
+msgstr "Szervezet"
+
+#: config/backends.php:343
+msgid "Other"
+msgstr "Egyéb"
+
+#: config/attributes.php:226
+msgid "Other Address"
+msgstr "Egyéb cím: utca"
+
+#: config/attributes.php:238
+msgid "Other City"
+msgstr "Egyéb cím: város"
+
+#: config/attributes.php:256
+msgid "Other Country"
+msgstr "Egyéb cím: ország"
+
+#: config/attributes.php:262
+msgid "Other Post Office Box"
+msgstr "Egyéb cím: postafiók"
+
+#: config/attributes.php:250
+msgid "Other Postal Code"
+msgstr "Egyéb cím: irányítószám"
+
+#: config/attributes.php:244
+msgid "Other State/Province"
+msgstr "Egyéb cím: állam/tartomány"
+
+#: config/attributes.php:232
+msgid "Other Street Address"
+msgstr "Egyéb cím: utca, házszám"
+
+#: config/attributes.php:438 config/attributes.php:445
+msgid "PGP Public Key"
+msgstr "PGP nyilvános kulcs"
+
+#: config/attributes.php:583
+msgid "PTT"
+msgstr "PTT"
+
+#: config/attributes.php:344
+msgid "Pager"
+msgstr "Személyhívó"
+
+#: lib/View/DeleteContact.php:60
+msgid "Permanently delete this contact?"
+msgstr "Véglegesen töröljük ezt a partnert?"
+
+#: deletefile.php:32 lib/Api.php:665 lib/Api.php:1633 lib/Driver.php:859
+#: lib/Driver/Sql.php:645
+msgid "Permission denied"
+msgstr "Ehhez nincs megfelelő jogosultsága"
+
+#: config/backends.php:330
+msgid "Personal"
+msgstr "Személyes"
+
+#: config/attributes.php:122
+msgid "Photo"
+msgstr "Fotó"
+
+#: config/attributes.php:128
+msgid "Photo MIME Type"
+msgstr "Fotó mime típusa"
+
+#: data.php:99 templates/data/import.inc:17
+msgid "Pine Address Book"
+msgstr "Pine címjegyzék"
+
+#: lib/Turba.php:679
+msgid "Please name the new contact list:"
+msgstr "Kérem adja meg az új lista nevét:"
+
+#: lib/Form/EditContactGroup.php:28 lib/Form/EditContactGroup.php:32
+#: lib/Form/EditContactGroup.php:76
+msgid "Previous"
+msgstr "Előző"
+
+#: config/backends.php:582
+msgid "Private Address Book"
+msgstr "Privát címjegyzék"
+
+#: lib/Driver/Ldap.php:189
+#, php-format
+msgid "Query failed: (%s) %s"
+msgstr "A keresés sikertelen: (%s) %s"
+
+#: config/attributes.php:329
+msgid "Radio Phone"
+msgstr "Mobiltelefon"
+
+#: lib/Driver/Ldap.php:236 lib/Driver/Ldap.php:245 lib/Driver/Ldap.php:512
+#, php-format
+msgid "Read failed: (%s) %s"
+msgstr "Olvasási hiba: (%s) %s"
+
+#: lib/Driver.php:2865
+msgid "Reading contacts is not available."
+msgstr "A partnerek nem olvashatók."
+
+#: lib/Form/DeleteAddressBook.php:31
+#, php-format
+msgid ""
+"Really delete the address book \"%s\"? This cannot be undone and all "
+"contacts in this address book will be permanently removed."
+msgstr ""
+"Valóban törölni szeretné \"%s\" címjegyzéket? Ez nem visszafordítható lépés, "
+"és törli az összes a címjegyzékben levő adatot."
+
+#: templates/browse/actions.inc:3
+msgid "Remove from this list"
+msgstr "Töröljük a listáról"
+
+#: lib/Driver.php:2916
+msgid ""
+"Removing user data is not supported in the current address book storage "
+"driver."
+msgstr ""
+"Felhasználóai adatok törlése nem támogatott a címjegyzék alrendszer "
+"meghajtójában."
+
+#: templates/data/import.inc:22
+msgid ""
+"Replace existing address book with the imported one? <strong>Warning: This "
+"deletes all entries in your current address book.</strong>"
+msgstr ""
+"Írjuk felül a kiválasztott címjegyzéket az importálttal? "
+"<strong>Figyelmeztetés: ez kitörli az összes adatot a jelenlegi "
+"címjegyzékből!</strong>"
+
+#: lib/Driver.php:739
+msgid "Requested object not found."
+msgstr "A keresett objektum nem található."
+
+#: templates/search/advanced.html.php:6
+msgid "Reset to Defaults"
+msgstr "Kezdjük újra a kitöltést"
+
+#: config/attributes.php:452
+msgid "S/MIME Public Certificate"
+msgstr "S/MIME nyilvános tanúsítvány"
+
+#: config/attributes.php:577
+msgid "SIP"
+msgstr "SIP"
+
+#: lib/Driver/Ldap.php:80
+#, php-format
+msgid "STARTTLS failed: (%s) %s"
+msgstr "A STARTTLS nem sikerült: (%s) %s"
+
+#: lib/Form/EditAddressBook.php:36 lib/Form/EditContact.php:26
+msgid "Save"
+msgstr "Mentés"
+
+#: templates/search/vbook.html.php:4
+msgid "Save search as a virtual address book?"
+msgstr "Mentsük el a keresést virtuális címjegyzékként?"
+
+#: lib/Driver.php:2904
+msgid "Saving contacts is not available."
+msgstr "Partnerek mentése nem lehetséges."
+
+#: config/prefs.php:109 lib/Application.php:539
+#: templates/block/minisearch.inc:20 templates/browse/header.inc:3
+#: templates/search/advanced.html.php:5 templates/search/basic.html.php:25
+#: templates/search/duplicate.html.php:12
+msgid "Search"
+msgstr "Keresés"
+
+#: templates/search/duplicate.html.php:1
+msgid "Search duplicates in:"
+msgstr "Ismétlődések keresése:"
+
+#: lib/Api.php:1405
+msgid "Search failed"
+msgstr "A keresés nem sikerült"
+
+#: lib/Api.php:1639 lib/Api.php:1646 lib/Api.php:1656 lib/Api.php:1670
+#, php-format
+msgid "Search failed: %s"
+msgstr "A keresés nem sikerült: %s"
+
+#: templates/block/minisearch.inc:17
+msgid "Search for: "
+msgstr "Keresés: "
+
+#: lib/Driver.php:2847
+msgid "Searching is not available."
+msgstr "Keresés nem lehetséges."
+
+#: templates/browse/row.inc:47
+msgid "Select contact"
+msgstr "Válassza ki a partnert"
+
+#: templates/data/export.inc:34
+msgid "Select the address book to export from:"
+msgstr "Válassza ki, melyik címjegyzékből kíván exportálni:"
+
+#: templates/data/import.inc:27
+msgid "Select the address book to import to:"
+msgstr "Válassza ki, melyik címjegyzékbe kíván importálni:"
+
+#: config/prefs.php:66
+msgid ""
+"Select the address books that should be used for synchronization with "
+"external devices:"
+msgstr ""
+"Válassza ki melyik címjegyzéket szeretné szinkronizálni a külső eszközzel:"
+
+#: templates/data/import.inc:36
+msgid "Select the charset of the source file:"
+msgstr "Válassza ki az importálandó fájl karakterkészletét:"
+
+#: templates/data/export.inc:10
+msgid "Select the export format:"
+msgstr "Válassza ki az exportálás formátumát:"
+
+#: templates/data/import.inc:44
+msgid "Select the file to import:"
+msgstr "Válassza ki az importálandó fájlt:"
+
+#: templates/data/import.inc:11
+msgid "Select the format of the source file:"
+msgstr "Válassza ki az importálandó fájl formátumát:"
+
+#: config/prefs.php:117
+msgid "Select the format used to <em>display</em> names:"
+msgstr "Válassza ki a nevek<em> megjelenítési</em> formáját:"
+
+#: config/prefs.php:129
+msgid "Select the format used to <em>sort</em> names:"
+msgstr "Válassza ki a nevek <em>rövid</em> formáját:"
+
+#: config/prefs.php:35
+msgid "Select view to display by default and paging preferences."
+msgstr ""
+"Beállítható az alapértelmezett megjelenítés, sorbarendezés ill. lapozás."
+
+#: config/prefs.php:28
+msgid "Select which fields to display in the address lists."
+msgstr "Kiválasztható, hogy a címlistában milyen mezők jelenjenek meg."
+
+#: config/prefs.php:42
+msgid "Select which format to display names."
+msgstr "Kiválasztható a nevek megjelenítési módja."
+
+#: lib/Form/AddContact.php:34
+#, php-format
+msgid "Selected address book \"%s\"."
+msgstr "A kiválasztott címjegyzék \"%s\"."
+
+#: config/backends.php:232
+msgid "Shared Address Books"
+msgstr "Megosztott címjegyzék"
+
+#: config/backends.php:375
+msgid "Shared Directory"
+msgstr "Megosztott könyvtár"
+
+#: templates/browse/actions.inc:49
+#, php-format
+msgid "Show %s"
+msgstr "%s megjelenítése"
+
+#: templates/browse/actions.inc:51
+msgid "Show Both"
+msgstr "Mutassunk mindkettőt"
+
+#: templates/browse/actions.inc:50
+msgid "Show Contacts"
+msgstr "Mutassuk a partnereket"
+
+#: templates/browse/actions.inc:49
+msgid "Show Lists"
+msgstr "Mutassuk a listákat"
+
+#: lib/View/List.php:312 lib/View/List.php:318
+msgid "Sort Direction"
+msgstr "A sorbarendezés iránya"
+
+#: templates/browse/column_headers.inc:32
+#, php-format
+msgid "Sort by %s"
+msgstr "%s szerinti sorrend"
+
+#: templates/browse/column_headers.inc:27
+#, php-format
+msgid "Sort by %s only"
+msgstr "csak %s szerinti sorrend"
+
+#: templates/browse/column_headers.inc:30
+#, php-format
+msgid "Sort by %s, then by %s"
+msgstr "%s, majd %s szerinti sorrend"
+
+#: templates/menu.inc:6
+msgid "Source:"
+msgstr "Forrás:"
+
+#: lib/Application.php:137
+msgid "Sources"
+msgstr "Címjegyzék források"
+
+#: config/attributes.php:110
+msgid "Spouse"
+msgstr "Házastárs"
+
+#: lib/View/Browse.php:345 lib/View/Browse.php:412
+#, php-format
+msgid "Successfully added %d contact(s) to list."
+msgstr "A listához sikerült %d partnert hozzáadni."
+
+#: lib/View/Browse.php:258
+#, php-format
+msgid "Successfully added %s to %s"
+msgstr "%s hozzáadása %s-hez sikeres volt"
+
+#: lib/View/Browse.php:396
+#, php-format
+msgid "Successfully created the contact list \"%s\"."
+msgstr "\"%s\" listát sikeresen létrehoztuk."
+
+#: search.php:147
+#, php-format
+msgid "Successfully created virtual address book \"%s\""
+msgstr "\"%s\" virtuális címjegyzéket sikeresen létrehoztuk."
+
+#: lib/View/Browse.php:133
+#, php-format
+msgid "Successfully deleted %d contact."
+msgid_plural "Successfully deleted %d contacts."
+msgstr[0] "Sikeresen töröltünk %d névjegyet."
+msgstr[1] "Sikeresen töröltünk %d névjegyeket."
+
+#: merge.php:33
+msgid "Successfully merged two contacts."
+msgstr "Sikeresen egyesítettük a két névjegyet."
+
+#: lib/View/Browse.php:104
+#, php-format
+msgid "Successfully removed %d contact(s) from list."
+msgstr "Sikeresen eltávolítottuk %d partnert a listáról."
+
+#: config/prefs.php:20
+msgid "Synchronization Preferences"
+msgstr "Szinkronizációs beállítások"
+
+#: data.php:96
+msgid "TSV"
+msgstr "TSV (TAB karakterrel elválasztott értékek)"
+
+#: templates/data/export.inc:14 templates/data/import.inc:14
+msgid "Tab separated values"
+msgstr "TAB karakterrel elválasztott értékek"
+
+#: templates/browse/actions.inc:20
+msgid "Target Address Book"
+msgstr "ebbe a címjegyzékbe"
+
+#: templates/browse/actions.inc:31
+msgid "Target Contact List"
+msgstr "ebbe a partnerlistába"
+
+#: data.php:433
+#, php-format
+msgid "The %s file didn't contain any contacts."
+msgstr "A(z) %s állományban nem volt partneradat."
+
+#: view.php:17
+msgid "The VFS backend needs to be configured to enable attachment uploads."
+msgstr "A VFS alrendszert be kell állítani a mellékletek feltöltéséhez."
+
+#: lib/Factory/Driver.php:56
+#, php-format
+msgid "The address book \"%s\" does not exist."
+msgstr "A(z) \"%s\" címjegyzék nem létezik."
+
+#: addressbooks/create.php:29
+#, php-format
+msgid "The address book \"%s\" has been created."
+msgstr "A(z) \"%s\" címjegyzéket létrehoztuk."
+
+#: data.php:442
+#, php-format
+msgid "The address book could not be purged: %s"
+msgstr "A címjegyzék nem törölhető: %s"
+
+#: lib/Api.php:906
+msgid "The address book with your own contact doesn't exist anymore."
+msgstr "A címjegyzék a saját névjegyeivel nem létezik többé."
+
+#: addressbooks/delete.php:48
+#, php-format
+msgid "The addressbook \"%s\" has been deleted."
+msgstr "A(z) \"%s\" címjegyzéket töröltük."
+
+#: addressbooks/edit.php:43
+#, php-format
+msgid "The addressbook \"%s\" has been renamed to \"%s\"."
+msgstr "A(z) \"%s\" címjegyzéket átnevezzük \"%s\"-re."
+
+#: addressbooks/edit.php:45
+#, php-format
+msgid "The addressbook \"%s\" has been saved."
+msgstr "A(z) \"%s\" címjegyzéket elmentettük."
+
+#: contact.php:19 vcard.php:18 view.php:28
+msgid "The contact you requested does not exist."
+msgstr "A keresett levelezőpartner nem létezik."
+
+#: deletefile.php:40
+#, php-format
+msgid "The file \"%s\" has been deleted."
+msgstr "A(z) \"%s\" állományt töröltük."
+
+#: data.php:407
+msgid "The import can be finished despite the warnings."
+msgstr "Az importálás a figyelmeztetések ellenére befejezhető."
+
+#: lib/View/Contact.php:37 lib/View/DeleteContact.php:38
+#: lib/View/EditContact.php:37
+msgid "The requested contact was not found."
+msgstr "A kívánt partner nem található."
+
+#: lib/View/Browse.php:67
+msgid "There are no browseable address books."
+msgstr "Nincsen olyan címjegyzék, amiben böngészni tud."
+
+#: add.php:27
+msgid ""
+"There are no writeable address books. None of the available address books "
+"are configured to allow you to add new entries to them. If you believe this "
+"is an error, please contact your system administrator."
+msgstr ""
+"Nincs írható címjegyzék. Egyetlen rendelkezésre álló címjegyzékhez sem "
+"jogosult újabb bejegyzéseket hozzátenni. Ha úgy gondolja, hogy ez "
+"rendellenes, akkor forduljon a helyi rendszergazdához."
+
+#: lib/View/Browse.php:473
+#, php-format
+msgid "There is %d contact in this list that is not viewable to you"
+msgid_plural "There are %d contacts in this list that are not viewable to you"
+msgstr[0] "Ebben a lista tartalmaz %d rejtett kapcsolatot"
+msgstr[1] "Ebben a lista tartalmaz %d rejtett kapcsolatot"
+
+#: search.php:143
+#, php-format
+msgid "There was a problem creating the virtual address book: %s"
+msgstr "A virtuális címjegyzék létrehozása során hiba lépett fel: %s"
+
+#: lib/Form/AddContact.php:99
+msgid ""
+"There was an error adding the new contact. Contact your system administrator "
+"for further help."
+msgstr ""
+"A partner adatainak hozzáadása nem sikerült. További segítségért forduljon a "
+"rendszergazdához."
+
+#: lib/Application.php:375
+#, php-format
+msgid "There was an error communicating with the ActiveSync server: %s"
+msgstr "Az importálás során hiba történt: %s"
+
+#: lib/View/Browse.php:387
+msgid "There was an error creating a new list."
+msgstr "Hiba történt az új lista létrehozása során."
+
+#: lib/View/Browse.php:270
+#, php-format
+msgid "There was an error deleting \"%s\" from the source address book."
+msgstr "\"%s\"-t nem sikerült kitörölni az eredeti címjegyzékből."
+
+#: delete.php:38
+#, php-format
+msgid "There was an error deleting this contact: %s"
+msgstr "A partner adatainak törlése során hiba történt: %s"
+
+#: lib/View/Browse.php:458
+msgid "There was an error displaying the list"
+msgstr "A lista megjelenítésekor hiba történt"
+
+#: data.php:482
+#, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Az importálás során hiba történt: %s"
+
+#: lib/Api.php:685 lib/Api.php:1059
+msgid "There was an error importing the iCalendar data."
+msgstr "Az iCalendar adatok importálása során hiba történt."
+
+#: lib/Application.php:433 lib/Application.php:463 lib/Application.php:476
+#, php-format
+msgid "There was an error removing an address book for %s"
+msgstr "Hiba történt %s címjegyzékének törlése során"
+
+#: lib/Form/EditContact.php:75
+msgid ""
+"There was an error saving the contact. Contact your system administrator for "
+"further help."
+msgstr ""
+"A partner adatait nem sikerült elmenteni. További segítségért forduljon a "
+"rendszergazdához."
+
+#: data.php:290
+msgid "There were no addresses to export."
+msgstr "Nem volt exportálható cím."
+
+#: lib/Application.php:254
+msgid "These address books will display in this order:"
+msgstr "A címjegyzékek ebben a sorrendben jelennek meg:"
+
+#: addressbooks/delete.php:25
+msgid "This address book cannot be deleted"
+msgstr "Ez a címjegyzék nem törölhető"
+
+#: contact.php:54
+msgid "This contact has been marked as your own."
+msgstr "Ezt a névjegyet sajátodnak jelölted."
+
+#: data.php:391
+msgid "This file format is not supported."
+msgstr "Az a fájlformátum nem támogatott."
+
+#: lib/Api.php:1660 lib/Api.php:1674
+#, php-format
+msgid "This person already has a %s entry in the address book"
+msgstr "Ez a személy már szerepel a címjegyzékében, mint %s"
+
+#: config/prefs.php:143
+msgid ""
+"This will be the default address book when adding or importing contacts."
+msgstr ""
+"Új partnerek beírásakor ill. importáláskor ez lesz az alapértelmezett "
+"címjegyzék."
+
+#: config/attributes.php:268
+msgid "Time Zone"
+msgstr "Időzóna"
+
+#: lib/Driver/Share.php:102
+msgid "Unable to find contact owner."
+msgstr "A partneradatok tulajdonosa nem található."
+
+#: lib/Factory/Driver.php:64
+#, php-format
+msgid "Unable to load the definition of %s."
+msgstr "Nem sikerült beolvasni %s definícióját."
+
+#: lib/Form/EditAddressBook.php:47
+#, php-format
+msgid "Unable to save address book \"%s\": %s"
+msgstr "\"%s\" címjegyzék mentése nem sikerült: %s"
+
+#: lib/Api.php:724 lib/Api.php:853 lib/Api.php:1088
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "Nem támogatott tartalomtípus: %s"
+
+#: minisearch.php:67 minisearch.php:68
+msgid "View Contact"
+msgstr "Új bejegyzés rögzítése"
+
+#: config/prefs.php:106
+msgid "View to display by default:"
+msgstr "Az alapértelmezés szerinti megjelenítés:"
+
+#: config/attributes.php:572
+msgid "VoIP"
+msgstr "VoIP"
+
+#: config/attributes.php:425
+msgid "Website URL"
+msgstr "Web cím"
+
+#: config/attributes.php:178
+msgid "Work Address"
+msgstr "Munkahelyi cím: utca"
+
+#: config/attributes.php:636
+msgid "Work Address Extended"
+msgstr "Munkahelyi cím: bővebb"
+
+#: config/attributes.php:196
+msgid "Work City"
+msgstr "Munkahelyi cím: város"
+
+#: config/attributes.php:214
+msgid "Work Country"
+msgstr "Munkahelyi cím: ország"
+
+#: config/attributes.php:520
+msgid "Work Email"
+msgstr "Munkahelyi email"
+
+#: config/attributes.php:537
+msgid "Work Fax"
+msgstr "Munkahelyi fax"
+
+#: config/attributes.php:642
+msgid "Work Latitude"
+msgstr "Munkahely földrajzi szélesség"
+
+#: config/attributes.php:647
+msgid "Work Longitude"
+msgstr "Munkahely földrajzi hosszúság"
+
+#: config/attributes.php:547
+msgid "Work Mobile Phone"
+msgstr "Munkahelyi mobiltelefon"
+
+#: config/attributes.php:299 config/attributes.php:304
+msgid "Work Phone"
+msgstr "Munkahelyi telefon"
+
+#: config/attributes.php:190
+msgid "Work Post Office Box"
+msgstr "Munkahelyi cím: postafiók"
+
+#: config/attributes.php:208
+msgid "Work Postal Code"
+msgstr "Munkahelyi cím: irányítószám"
+
+#: config/attributes.php:202
+msgid "Work State/Province"
+msgstr "Munkahelyi cím: állam/tartomány"
+
+#: config/attributes.php:184
+msgid "Work Street Address"
+msgstr "Munkahelyi cím: utca, házszám"
+
+#: config/attributes.php:562
+msgid "Work Video Call"
+msgstr "Munkahelyi video telefon"
+
+#: config/attributes.php:630
+msgid "Work Website URL"
+msgstr "Munkahely web címe"
+
+#: addressbooks/edit.php:32
+msgid "You are not allowed to change this addressbook."
+msgstr "Ön nem jogosult módosítani ezt a címjegyzéket."
+
+#: add.php:51 data.php:352 lib/View/Browse.php:176 lib/View/Browse.php:370
+#, php-format
+msgid "You are not allowed to create more than %d contacts in \"%s\"."
+msgstr "Ön legfeljebb %d partnert hozhat létre \"%s\"-ben."
+
+#: addressbooks/delete.php:38
+msgid "You are not allowed to delete this addressbook."
+msgstr "Ön nem jogosult törölni ezt a címjegyzéket."
+
+#: lib/Driver/Facebook.php:165
+msgid ""
+"You are not connected to Facebook. Create a Facebook connection in the "
+"Global Preferences."
+msgstr ""
+"Ön nincs kapcsolódva a Facebookhoz. Készítsen egy kapcsolatot a Globális "
+"beállításokban."
+
+#: lib/Driver/Vbook.php:114
+msgid "You cannot add new contacts to a virtual address book"
+msgstr "Virtuális címjegyzékhez nem lehet új adatokat hozzátenni."
+
+#: lib/Driver/Vbook.php:125
+msgid "You cannot delete contacts from a virtual address book"
+msgstr "Virtuális címjegyzékből nem lehet adatokat törölni."
+
+#: lib/Api.php:901
+msgid "You didn't mark a contact as your own yet."
+msgstr "Még nem jelölt egyetlen névjegyet sem sajátjának."
+
+#: edit.php:61 lib/View/DeleteContact.php:44 lib/View/EditContact.php:43
+#: view.php:36
+msgid "You do not have permission to view this contact."
+msgstr "Ennek a személynek az adtait nem jogosult megtekinteni."
+
+#: vcard.php:34
+msgid "You do not have permission to view this object."
+msgstr "Ezt az objektumot nem jogosult megtekinteni."
+
+#: lib/Form/DeleteAddressBook.php:50
+msgid "You do not have permissions to delete this address book."
+msgstr "Önnek nincs jogosultsága törölni ezt a címjegyzéket."
+
+#: lib/Api.php:912
+msgid ""
+"You don't have sufficient permissions to read the address book that contains "
+"your own contact."
+msgstr ""
+"Nem rendelkezik megfelelő jogosultsággal olvasni a címjegyzéket, amely "
+"tartalmazza a saját névjegyeit."
+
+#: search.php:125
+msgid "You must provide a name for virtual address books."
+msgstr "A virtuális címjegyzéket el kell neveznie."
+
+#: lib/Turba.php:680
+msgid "You must select a target address book."
+msgstr "Először célként ki kell választania egy címjegyzéket."
+
+#: lib/Turba.php:678
+msgid "You must select a target contact list."
+msgstr "Először célként ki kell választania egy listát."
+
+#: edit.php:28 lib/Turba.php:677
+msgid "You must select at least one contact first."
+msgstr "Előbb ki kell választania legalább egy adatot."
+
+#: edit.php:64 lib/View/DeleteContact.php:47 lib/View/EditContact.php:46
+msgid "You only have permission to view this contact."
+msgstr "E személy adatait csak megtekinteni van jogosultsága."
+
+#: lib/View/Browse.php:489
+msgid "Your default address book is not browseable."
+msgstr "Az alapértelmezett címjegyzék nem böngészhető."
+
+#: contact.php:92 contact.php:93 templates/browse/row.inc:14
+#: templates/browse/row.inc:15
+msgid "Your own contact"
+msgstr "Saját névjegyek"
+
+#: lib/Api.php:918
+msgid "Your own contact cannot be found in the address book."
+msgstr "Nem található névjegy a saját címjegyzékben."
+
+#: lib/Application.php:164
+msgid "_Browse"
+msgstr "_Böngészés"
+
+#: templates/browse/actions.inc:50
+msgid "_Contacts"
+msgstr "Partnerek"
+
+#: templates/browse/actions.inc:3
+msgid "_Delete"
+msgstr "Törlés"
+
+#: contact.php:82
+msgid "_Edit"
+msgstr "Módosítás"
+
+#: lib/Application.php:175
+msgid "_Import/Export"
+msgstr "Import/_Export"
+
+#: templates/browse/actions.inc:49
+msgid "_Lists"
+msgstr "Listák"
+
+#: lib/Application.php:160
+msgid "_My Address Books"
+msgstr "Címjegyzékeim"
+
+#: lib/Application.php:168
+msgid "_New Contact"
+msgstr "Új levelezőpartner"
+
+#: templates/browse/actions.inc:3
+msgid "_Remove from this list"
+msgstr "Töröljük a listáról"
+
+#: lib/Application.php:171
+msgid "_Search"
+msgstr "Kere_sés"
+
+#: contact.php:79
+msgid "_View"
+msgstr "Megtekintés"
+
+#: templates/browse/column_headers.inc:25
+msgid "ascending"
+msgstr "növekvő"
+
+#: lib/Object.php:237
+#, php-format
+msgid "by %s"
+msgstr "%s szerint"
+
+#: lib/Object.php:239
+msgid "by me"
+msgstr "tőlem"
+
+#: vcard.php:40
+msgid "contact"
+msgstr "partner"
+
+#: data.php:309 data.php:313 templates/data/export.inc:1
+msgid "contacts.csv"
+msgstr "partnerek.csv"
+
+#: data.php:330
+msgid "contacts.ldif"
+msgstr "partnerek.ldif"
+
+#: data.php:317
+msgid "contacts.tsv"
+msgstr "partnerek.tsv"
+
+#: data.php:322
+msgid "contacts.vcf"
+msgstr "partnerek.vcf"
+
+#: templates/browse/column_headers.inc:25
+msgid "descending"
+msgstr "csökkenő"
+
+#: config/attributes.php:499
+msgid "female"
+msgstr "nő"
+
+#: lib/Application.php:509
+#, php-format
+msgid "in %s"
+msgstr "%s címjegyzékben"
+
+#: config/attributes.php:499
+msgid "male"
+msgstr "férfi"
+
+#: config/prefs.php:121 config/prefs.php:133
+msgid "no formatting"
+msgstr "formattálás nélkül"
+
+#: templates/browse/actions.inc:33
+msgid "to a Contact List"
+msgstr "egy partnerlistához"
+
+#: templates/browse/actions.inc:22
+msgid "to a different Address Book"
+msgstr "egy másik címjegyzékbe"
+
+#: data.php:97 templates/data/export.inc:15 templates/data/import.inc:15
+msgid "vCard"
+msgstr "vCard"
+
+#: templates/data/export.inc:16
+msgid "vCard (3.0)"
+msgstr "vCard (3.0)"
